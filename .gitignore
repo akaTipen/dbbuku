@@ -25,6 +25,7 @@ _UpgradeReport_Files/
 bin/
 obj/
 TestResults/
+.vs/
 ###################
 # Web publish log #
 ###################
@@ -66,8 +67,6 @@ Thumbs.db
 *.[Cc]ache
 *[Rr]esharper*
 packages
-vs
-.vs
 NuGet.exe
 _[Ss]cripts
 *.exe
