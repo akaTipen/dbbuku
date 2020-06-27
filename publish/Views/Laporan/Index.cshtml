@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="action-button">
+        <button class="btn btn-success btn-sm btn-responsive" onclick="exportData()"><i class="oi-input oi-plus"></i>Export</button>
+    </div>
+</div>
+
+
+<script>
+    function exportData() {
+        window.open($.rootDir + "Laporan/ExportData");
+    }
+</script>

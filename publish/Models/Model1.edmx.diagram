@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e25a54a5e764a62936086a2c79fea3f" Name="Diagram1" ShowGrid="true" ZoomLevel="86">
+        <EntityTypeShape EntityType="BukuModel.AspNetUserRole" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BukuModel.tblM_Buku" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="BukuModel.TblM_Transaksi" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="BukuModel.AspNetUser" Width="1.5" PointX="0.75" PointY="7.625" />
+        <AssociationConnector Association="BukuModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
