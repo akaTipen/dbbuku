@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Routing;
 
 namespace dbbuku
 {
@@ -19,6 +21,17 @@ namespace dbbuku
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //config.Routes.MapHttpRoute(
+            //    name: "DefaultApiWithId",
+            //    routeTemplate: "api/{controller}/{id}",
+            //    defaults: new { id = RouteParameter.Optional },
+            //    constraints: new { id = @"\d+" }
+            //);
+
+            //config.Routes.MapHttpRoute("DefaultApiWithAction", "Api/{controller}/{action}");
+            //config.Routes.MapHttpRoute("DefaultApiGet", "Api/{controller}", new { action = "Get" }, new { HttpMethod = new HttpMethodConstraint(HttpMethod.Get) });
+            //config.Routes.MapHttpRoute("DefaultApiPost", "Api/{controller}", new { action = "Post" }, new { HttpMethod = new HttpMethodConstraint(HttpMethod.Post) });
         }
     }
 }
